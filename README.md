@@ -11,7 +11,11 @@ length() method
 
 charAt() method
 
-For Loop
+equals() method
+
+For loop
+
+Scanner (User input)
 
 Boolean Logic
 
@@ -34,6 +38,15 @@ Loops only till half of the string length.
 Stops checking if mismatch is found.
 
 Prints formatted output.
+# Use Case 3 – Reverse String Method
+
+Takes input from the user.
+
+Reverses the string using a loop.
+
+Compares original and reversed string.
+
+Prints the result.
 # Running Procedure
 
 Compile the program:
