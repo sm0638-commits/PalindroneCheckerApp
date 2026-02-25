@@ -47,6 +47,31 @@ Reverses the string using a loop.
 Compares original and reversed string.
 
 Prints the result.
+# Use Case 4 – Character Array Method
+
+This version checks palindrome using:
+
+Character array
+
+Two-pointer technique
+
+Efficient comparison
+
+🔹 Steps
+
+Convert string to character array.
+
+Set two pointers:
+
+Start → Beginning
+
+End → Last character
+
+Compare characters.
+
+If all characters match → Palindrome.
+
+If mismatch found → Not Palindrome.
 # Running Procedure
 
 Compile the program:
