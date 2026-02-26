@@ -15,45 +15,43 @@ This project demonstrates how to check whether a given string is a palindrome us
 7. Display result.
 
 ## Use Cases Covered
+UC1  – Application Start
 
-### Use Case 1 – Application Start
-Program execution begins.
+UC2  – Basic Input Handling
 
-### Use Case 2 – Input Initialization
-System defines input string.
-Example:
-String input = "madam";
+UC3  – Stack Creation
 
-### Use Case 3 – Recursive Method Call
-check(input, 0, input.length() - 1);
+UC4  – Push Operation
 
-### Use Case 4 – Base Condition
-If start >= end → return true
+UC5  – Stack-Based Validation
 
-### Use Case 5 – Character Comparison
-If s.charAt(start) != s.charAt(end)
-→ return false
+UC6  – Queue + Stack Fairness Check
 
-### Use Case 6 – Recursive Step
-Call:
-check(s, start + 1, end - 1);
+UC7  – Deque Optimized Approach
 
-### Use Case 7 – Termination
-Recursion stops when:
-- All characters matched
-- Mismatch found
+UC8  – LinkedList Based Validation
 
-### Use Case 8 – Result Handling
-Boolean result returned to main method.
+UC9  – Recursive Palindrome Checker
 
-### Use Case 9 – Final Output Display
-Print result to console.
+UC10 – Normalized Palindrome Validation
 
-# Use Case 10 – Normalized Palindrome Validation
+UC11 – Object-Oriented Palindrome
+
+# Use Case 11 – Object-Oriented Palindrone Service
+
 Description:
 
-This use case validates whether a given string is a
-palindrome after preprocessing (normalization).
+This use case applies object-oriented principles by
+separating palindrome logic into a dedicated service
+class (PalindromeService).
+
+The main class handles:
+- Input
+- Service object creation
+- Result display
+
+The service class handles:
+- Palindrome validation logic
 
 # Running Procedure
 
