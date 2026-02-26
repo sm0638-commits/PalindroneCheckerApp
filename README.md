@@ -49,6 +49,12 @@ Boolean result returned to main method.
 ### Use Case 9 – Final Output Display
 Print result to console.
 
+# Use Case 10 – Normalized Palindrome Validation
+Description:
+
+This use case validates whether a given string is a
+palindrome after preprocessing (normalization).
+
 # Running Procedure
 
 Compile the program:
