@@ -37,21 +37,27 @@ UC10 – Normalized Palindrome Validation
 
 UC11 – Object-Oriented Palindrome
 
-# Use Case 11 – Object-Oriented Palindrone Service
+UC12 – Strategy Pattern Implementation
+
+# Use Case 12 – Strategy Pattern 
 
 Description:
 
-This use case applies object-oriented principles by
-separating palindrome logic into a dedicated service
-class (PalindromeService).
+This use case implements the Strategy Design Pattern
+to allow dynamic selection of palindrome algorithms.
 
-The main class handles:
-- Input
-- Service object creation
-- Result display
+Components:
 
-The service class handles:
-- Palindrome validation logic
+1. PalindromeStrategy (Interface)
+   - Defines method: check(String input)
+
+2. StackStrategy (Concrete Strategy)
+   - Implements palindrome validation using Stack
+
+3. Main Class
+   - Injects chosen strategy at runtime
+   - Executes the selected algorithm
+
 
 # Running Procedure
 
