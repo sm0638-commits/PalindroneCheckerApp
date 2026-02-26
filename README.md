@@ -72,6 +72,15 @@ Compare characters.
 If all characters match → Palindrome.
 
 If mismatch found → Not Palindrome.
+# Use Case 5 – Palindrome Validation
+System pops characters from stack and compares with original string.
+
+If all characters match → TRUE  
+If any character mismatches → FALSE
+
+Boolean flag is used:
+boolean isPalindrome = true;
+
 # Running Procedure
 
 Compile the program:
