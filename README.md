@@ -39,25 +39,23 @@ UC11 – Object-Oriented Palindrome
 
 UC12 – Strategy Pattern Implementation
 
-# Use Case 12 – Strategy Pattern 
+UC13 – Performance Comparison & Benchmarking
+
+# Use Case 13 – Performance Comparison 
 
 Description:
 
-This use case implements the Strategy Design Pattern
-to allow dynamic selection of palindrome algorithms.
+This use case measures execution time of a
+palindrome algorithm using benchmarking concepts.
 
-Components:
+Steps:
 
-1. PalindromeStrategy (Interface)
-   - Defines method: check(String input)
-
-2. StackStrategy (Concrete Strategy)
-   - Implements palindrome validation using Stack
-
-3. Main Class
-   - Injects chosen strategy at runtime
-   - Executes the selected algorithm
-
+1. Select a palindrome strategy.
+2. Capture start time using System.nanoTime().
+3. Execute the algorithm.
+4. Capture end time.
+5. Calculate total execution duration.
+6. Display results.
 
 # Running Procedure
 
