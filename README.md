@@ -1,89 +1,44 @@
 # PalindromeCheckerApp
 # Project Objective
 This project demonstrates how to check whether a given string is a palindrome using basic Java concepts.
+## Flow of Execution
 
-# Topics Covered
-Java Basics
+1. Initialize input string.
+2. Create Deque.
+3. Insert each character using addLast().
+4. Compare characters from both ends:
+    - removeFirst()
+    - removeLast()
+5. If all pairs match → TRUE
+6. If any mismatch → FALSE
 
-String Handling
+## Use Cases Covered
 
-length() method
+### Use Case 1 – Application Start
+Program execution begins.
 
-charAt() method
+### Use Case 2 – Input Initialization
+System defines input string.
+Example:
+String input = "refer";
 
-equals() method
+### Use Case 3 – Deque Creation
+Deque<Character> deque = new ArrayDeque<>();
 
-For loop
+### Use Case 4 – Data Insertion
+Characters added using:
+deque.addLast(c);
 
-Scanner (User input)
+### Use Case 5 – Bidirectional Comparison
+Elements removed from:
+- Front (removeFirst)
+- Back (removeLast)
 
-Boolean Logic
+### Use Case 6 – Condition Check
+If first != last → Not Palindrome
 
-Conditional Statements
-# Use Case 1 – Basic Palindrome Check
-Uses a hardcoded string.
-
-Compares characters from beginning and end.
-
-Determines whether the string is a palindrome.
-
-Displays the result on the console.
-
-# Use Case 2 – Hardcoded Palindrome Validation
-
-Uses a predefined string value.
-
-Loops only till half of the string length.
-
-Stops checking if mismatch is found.
-
-Prints formatted output.
-# Use Case 3 – Reverse String Method
-
-Takes input from the user.
-
-Reverses the string using a loop.
-
-Compares original and reversed string.
-
-Prints the result.
-# Use Case 4 – Character Array Method
-
-This version checks palindrome using:
-
-Character array
-
-Two-pointer technique
-
-Efficient comparison
-
-🔹 Steps
-
-Convert string to character array.
-
-Set two pointers:
-
-Start → Beginning
-
-End → Last character
-
-Compare characters.
-
-If all characters match → Palindrome.
-
-If mismatch found → Not Palindrome.
-# Use Case 5 – Palindrome Validation
-System pops characters from stack and compares with original string.
-
-If all characters match → TRUE  
-If any character mismatches → FALSE
-
-Boolean flag is used:
-boolean isPalindrome = true;
-# Use Case 6 – Fairness Comparison
-Characters removed from:
-- Front of Queue
-- Top of Stack
+### Use Case 7 – Final Result Display
+Print result to console.
 
 # Running Procedure
 
