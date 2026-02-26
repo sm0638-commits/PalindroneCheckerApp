@@ -4,13 +4,14 @@ This project demonstrates how to check whether a given string is a palindrome us
 ## Flow of Execution
 
 1. Initialize input string.
-2. Create Deque.
-3. Insert each character using addLast().
-4. Compare characters from both ends:
-    - removeFirst()
-    - removeLast()
-5. If all pairs match → TRUE
-6. If any mismatch → FALSE
+2. Create LinkedList.
+3. Insert each character into the list.
+4. Remove elements from:
+   - Front (removeFirst)
+   - Back (removeLast)
+5. Compare both characters.
+6. If all match → TRUE
+7. If any mismatch → FALSE
 
 ## Use Cases Covered
 
@@ -37,8 +38,11 @@ Elements removed from:
 ### Use Case 6 – Condition Check
 If first != last → Not Palindrome
 
-### Use Case 7 – Final Result Display
-Print result to console.
+### Use Case 7 – Loop Control
+Continue comparison while list.size() > 1
+
+### Use Case 8 – Final Result Display
+Print the result to console.
 
 # Running Procedure
 
