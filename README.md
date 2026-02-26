@@ -80,6 +80,10 @@ If any character mismatches → FALSE
 
 Boolean flag is used:
 boolean isPalindrome = true;
+# Use Case 6 – Fairness Comparison
+Characters removed from:
+- Front of Queue
+- Top of Stack
 
 # Running Procedure
 
